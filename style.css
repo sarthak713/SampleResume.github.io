@@ -81,8 +81,8 @@ a {
 }
 
 button {
-    height: 7vh;
-    width: 20vh;
+    height: 50px;
+    width: 130px;
     border: none;
     background: linear-gradient(rgb(255, 201, 101), orange);
     border-radius: 5vh;
@@ -204,7 +204,7 @@ button:hover {
 
 .left2 button {
     margin: 3vh 0;
-    width: 22vh;
+    width: 150px;
 }
 
 .right2 {
@@ -245,13 +245,16 @@ button:hover {
     border-bottom-right-radius: 10px;
     font-size: 17px;
 }
-
+.servicesCard button{
+    z-index: -1;
+    width: 160px;
+}
 #sbtn {
-    padding: 0px auto;
-    height: 20%;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .learnBtn {
@@ -261,7 +264,7 @@ button:hover {
     color: rgb(39, 172, 255);
 }
 
-.learnBtn:hover {
+#sbtn:hover .learnBtn{
     transform: scale(1.1);
     box-shadow: none;
     background: white;
@@ -528,8 +531,8 @@ button:hover {
 }
 
 #pBtn {
-    height: 7vh;
-    width: 17vh;
+    height: 50px;
+    width: 150px;
     border-left: 2px solid cyan;
     border-bottom: 2px solid cyan;
     background: rgb(34, 34, 34);
@@ -595,8 +598,8 @@ button:hover {
 }
 
 #eBtn {
-    height: 7vh;
-    width: 16vh;
+    height: 40px;
+    width: 80px;
     border: none;
     background: white;
     border-radius: 5vh;
@@ -661,6 +664,8 @@ button:hover {
 }
 
 #contactBtn {
+    height: 50px;
+    width: 100px;
     margin: 3vh 0 0 0;
 }
 
@@ -719,7 +724,7 @@ button:hover {
     }
 
     .buttonNav button {
-        width: 15vh;
+        width: 120px;
     }
 
 /*  HOME  */
@@ -957,8 +962,8 @@ button:hover {
     }
 
     #pBtn {
-        height: 6vh;
-        width: 15vh;
+        height: 30px;
+        width: 70px;
         font-size: 20px;
         color: white;
         transition: all 0.2s ease-in-out;
@@ -1007,18 +1012,19 @@ button:hover {
     #iname,
     #imail,
     #imsg {
-        height: 6vh;
+        height: 30px;
         width: 80%;
         padding: 1vh;
         margin-bottom: 3vh;
     }
 
     #imsg {
-        height: 15vh;
+        height: 70px;
     }
 
     #contactBtn {
-        width: 15vh;
+        height: 40px;
+        width: 80px;
     }
 
 /* FOOTER */
