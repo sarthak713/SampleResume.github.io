@@ -37,6 +37,7 @@ body {
 .navbar {
     height: 15vh;
     display: flex;
+    background-color:#242424;
 }
 
 .headingNav {
@@ -89,14 +90,14 @@ button {
     font-size: 20px;
     color: white;
     font-family: inherit;
-    box-shadow: 0px 20px 20px rgb(141, 93, 3);
+    box-shadow: 0px 5px 10px rgb(141, 93, 3);
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
 
 button:hover {
     transform: translateY(5px);
-    box-shadow: 0px 10px 20px rgb(141, 93, 3);
+    box-shadow: 0px 3px 7px rgb(141, 93, 3);
     background: linear-gradient(white, white);
     color: orange;
 }
